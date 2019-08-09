@@ -54,7 +54,10 @@ function greeting( obj ) {
 */
 
 //Code Here
-
+var totalPopulation = (object) =>{
+  var states = {utah, california,texas, arizona} = object;
+  return states;
+}
 
 
 ////////// PROBLEM 4 //////////
@@ -68,7 +71,15 @@ function greeting( obj ) {
 */
 
 //Code Here
+var ingredients =(object) => {
+  var newArr[];
+  var {carb, fat, protein} = object;
+  for (var in key object){
+    newArr.push(object[key])
 
+  }
+  return newArr;
+}
 
 
 ////////// PROBLEM 5 //////////
@@ -86,6 +97,14 @@ function greeting( obj ) {
 */
 
 //Code Here
+var largeNumbers =(object)=> {
+  var valuesArr = [];
+  var {first, second, third} = object;
+  for(key object){
+    valuesArr.push(object[key]);
+    var valuesTwo
+  }
+}
 
 
 

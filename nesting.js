@@ -52,6 +52,19 @@ var employees = [
 
 //Code Here
 
+function employeeUpdater(){
+  for(var i=0; i< employee.length; i++){
+    if (employees[i].firstName === "Theo"){
+      employees.splice(i,1)
+    } else {(employees[i].firstName === "Lorie") }
+      employees[i].department = "HR";
+        return employees;
+    }
+    }
+    
+  
+
+console.log(employeeUpdater);
 
 
 ////////// PROBLEM 2 //////////
@@ -69,7 +82,15 @@ var workplaceAccidents = [12, 56, 44, 3, 29, 56, 56, 3, 7, 12];
 */
 
 //Code Here
-
+ function removeDuplicates (arr){
+   let newArray=[];
+   for(let i = 0; i < arr.length; i++){
+     if (!newArray.includes(arr[i])){
+       newArray.push(arr[i]);
+     }
+   }
+   return newArray;
+ }
 
 
 ////////// PROBLEM 3 //////////
