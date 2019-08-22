@@ -18,7 +18,7 @@ let product = {
 }
 
 // code here
-var productCopy  =[...product];
+var productCopy  ={...product};
 
 
 ////////// PROBLEM 2 //////////

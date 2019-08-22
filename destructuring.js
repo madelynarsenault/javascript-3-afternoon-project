@@ -72,9 +72,9 @@ var totalPopulation = (object) =>{
 
 //Code Here
 var ingredients =(object) => {
-  var newArr[];
+  var newArr = [];
   var {carb, fat, protein} = object;
-  for (var in key object){
+  for (var in key [object]){
     newArr.push(object[key])
 
   }
@@ -100,7 +100,7 @@ var ingredients =(object) => {
 var largeNumbers =(object)=> {
   var valuesArr = [];
   var {first, second, third} = object;
-  for(key object){
+  for(var in key [object]) {
     valuesArr.push(object[key]);
     var valuesTwo
   }

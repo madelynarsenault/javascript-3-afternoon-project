@@ -21,12 +21,13 @@ const mixedNumbers = [6,3,1,7,5,2,6,8,9,4,2,7,9,3,1,8,4,3];
 */
 
 //Code Here
-function onlyEven(element, index, array){
+function onlyEven( index, array,value){
   if (value %2 === 0){
     return value;
   }
 }
 let evenNumbers= mixedNumbers.filter(onlyEven);
+
 
 
 

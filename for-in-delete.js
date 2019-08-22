@@ -55,7 +55,7 @@ function showValues( obj ) {
 
 //Code Here
 function greaterThan10(object){
-  for(var key in obj){
+  for(var key in object){
     if(object [key]>10){
       object [key] =0;
     }

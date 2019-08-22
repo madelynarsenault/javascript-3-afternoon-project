@@ -56,10 +56,11 @@ function employeeUpdater(){
   for(var i=0; i< employee.length; i++){
     if (employees[i].firstName === "Theo"){
       employees.splice(i,1)
-    } else {(employees[i].firstName === "Lorie") }
-      employees[i].department = "HR";
-        return employees;
-    }
+    } else {if (employees[i].firstName === "Lorie"){
+      employees[i].department = "HR"
+    }}
+    } 
+    return employees;
     }
     
   
@@ -118,8 +119,11 @@ var cat = {
 */
 
 //Code Here
-var grumpyActivity;
-var fluffy2ndFriend;
+var grumpyActivity =cat.catFriends[0].activities[1];
+var fluffy2ndFriend= cat.catFriends[1].name;
+
+console.log(grumpyActivity)
+
 
 
 
